@@ -97,7 +97,7 @@ def agregar_vehiculo(lista_vehiculos):
 # Funcion buscar vehiculo
 
 def buscar_vehiculo(lista_vehiculos, modelo_buscado):
-    modelo_buscado = modelo_buscado.strip().lower
+    modelo_buscado = modelo_buscado.strip().lower()
     
     for i in range(len(lista_vehiculos)):
         modelo_actual = lista_vehiculos[i]["modelo"].strip().lower()
