@@ -17,8 +17,10 @@ def leer_opcion():
             return opcion
         else:
             print("Ingrese una opcion valida")
+            return 0
     except ValueError:
         print("Ingrese un numero del 1 al 6")
+        return 0
 
 def validacion_nombre(nombre):
     if nombre.strip() != "":
